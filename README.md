@@ -24,6 +24,8 @@
     docker run ... -v /path/to/source/code:/var/www/site/
 `
 
+- Note on MacOS: becausing using virtualbox, so, running virtualbox image share folder /Users with host. So, if you want to mount volumn to docker container, you must put your folders/files in your /Users or sub directories of /Users on your Macbook Disk.
+
 # Example Run #
 - Normal start web server:
     `

@@ -56,5 +56,5 @@ RUN chmod 755 /etc/apache2/foreground.sh
 RUN mkdir /var/log/supervisor/
 RUN pip install envtpl
 
-# By default, simply start apache.
+# By default, run start.sh script
 CMD ["/bin/bash", "/start.sh"]
