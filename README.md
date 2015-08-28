@@ -5,6 +5,11 @@
 - Supervisord to monitor apache process to prevent failure
 - Collectd with write_http plugin to send heartbeat to a website endpoint
 
+# Configuration #
+- Apache configuration in /apache-config.conf
+- Supervisord configuration in /supervisord.conf
+- CollectD configuration in /collectd-config.conf.tpl
+
 # Environment Variables #
 - APP_ROOTURL
 - MYSQL_SERVER
@@ -16,7 +21,7 @@
 - APACHE_RUN_GROUP
 - APACHE_LOG_DIR
 
-- COLLECTD_WRITEHTTP_HOST
+- COLLECTD_WRITEHTTP_HOST : URL will receive data (HTTP POST request) from collectd agent. For testing, you can create a temporary URL at http://requestb.in/
 
 # Binding code directory for development #
 - If you want to mount your developing source code directory to running container (to prevent re-build each time when code change), you can mount volumn from your source code directory to "/var/www/site/".
