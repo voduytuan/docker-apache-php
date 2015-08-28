@@ -1,4 +1,4 @@
-# Web Server for our production: #
+#Web Server for our production:#
 
 Apache with Mod_rewrite enable
 PHP 5.5 with PDO, MySQL, Redis, Memcache Extension
