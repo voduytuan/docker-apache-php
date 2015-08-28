@@ -36,3 +36,9 @@
     `
     $ > docker run -ti -d -p 8080:80 -h webserver -e COLLECTD_WRITEHTTP_HOST="http://receive-collectd-server/" --name web01 voduytuan/docker-apache-php 
     `
+
+# Docker Hub Repository #
+- You can pull from my image at: https://hub.docker.com/r/voduytuan/docker-apache-php/
+    `
+    $ > docker pull voduytuan/docker-apache-php
+    `
