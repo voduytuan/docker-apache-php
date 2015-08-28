@@ -1,4 +1,4 @@
-#Web Server Image for our production container:#
+# Web Server Image for our production container: #
 
 - Apache with Mod_rewrite enable
 - PHP 5.5 with PDO, MySQL, Redis, Memcache Extension
@@ -26,4 +26,6 @@
 
 # Example Run #
 - Normal start web server:
-    `$ > docker run -ti -d -p 8080:80 -h webserver -e COLLECTD_WRITEHTTP_HOST="http://receive-collectd-server/" --name web01 voduytuan/docker-apache-php 
+    `
+    $ > docker run -ti -d -p 8080:80 -h webserver -e COLLECTD_WRITEHTTP_HOST="http://receive-collectd-server/" --name web01 voduytuan/docker-apache-php 
+    `
