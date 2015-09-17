@@ -11,12 +11,6 @@
 - CollectD configuration in /collectd-config.conf.tpl
 
 # Environment Variables #
-- APP_ROOTURL
-- MYSQL_SERVER
-- MYSQL_DATABASE
-- MYSQL_USERNAME
-- MYSQL_PASSWORD
-
 - APACHE_RUN_USER
 - APACHE_RUN_GROUP
 - APACHE_LOG_DIR
