@@ -45,6 +45,9 @@ ADD apache-config.conf /etc/apache2/sites-enabled/000-default.conf
 ADD start.sh /start.sh
 ADD foreground.sh /etc/apache2/foreground.sh
 
+# Enable mod_expires
+RUN cp /etc/apache2/mods-available/expires.load /etc/apache2/mods-enabled/
+
 # supervisord config
 ADD supervisord.conf /etc/supervisord.conf
 
