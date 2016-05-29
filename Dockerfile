@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:14.04
 
 MAINTAINER Alex Vo <tuanmaster2012@gmail.com>
 
